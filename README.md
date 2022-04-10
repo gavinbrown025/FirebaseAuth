@@ -1,9 +1,4 @@
-<img src="src/images/logo-lo-know.png" height="200px">
-
 # User Signup and Login Form
-
-## Gavin Brown LoKnow Code Test
-Hopefully you enjoy my form example for the code assignment. I went with a rendition of the LoKnow styling, since it is so good already. I tried to develop it with reusability and scalability in mind, by using global style variables, custom hooks, and reusable components. Hopefully you agree that it works well and is visually appealing.
 
 ## UX/UI Features
 
