@@ -1,0 +1,61 @@
+@import '/src/styles/_vars.scss';
+
+.auth-con {
+	padding: 3rem 0;
+	min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.auth__inner {
+    background: $white;
+	width: 100%;
+	max-width: 400px;
+	margin-bottom: 1rem;
+	h2 {
+		margin-bottom: 1.5rem;
+	}
+	button:hover {
+		cursor: pointer;
+		background: $purple;
+	}
+	button:disabled {
+		cursor: default;
+		background: rgb(197, 206, 211);
+	}
+	a {
+		margin-top: 1rem;
+		text-align: center;
+	}
+}
+
+.auth__ex-links {
+	margin-top: 1rem;
+	a {
+		margin-left: .5rem;
+	}
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	* {
+		min-width: 0;
+	}
+	button {
+		width: 100%;
+	}
+}
+
+.alert {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 0.5rem;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	background: $red;
+}
+

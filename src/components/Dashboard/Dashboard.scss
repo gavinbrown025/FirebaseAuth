@@ -1,0 +1,43 @@
+@import '/src/styles/_vars.scss';
+
+.dashboard {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr;
+}
+
+header {
+	width: 100%;
+	background: $tan;
+	padding: 1rem 0;
+}
+
+.nav-con {
+	width: 100%;
+	nav ul li {
+		font-style: 1.2rem;
+		font-weight: 700;
+		margin-left: 2rem;
+	}
+}
+
+.logo {
+	height: 3rem;
+	img {
+		height: 8rem;
+	}
+}
+
+.dashboard__content {
+	display: grid;
+	place-items: center;
+	@media (max-width: 48rem) {
+		text-align: center;
+	}
+}
+
+@media (max-width: 30rem) {
+	.dashboard__username {
+		display: none;
+	}
+}
